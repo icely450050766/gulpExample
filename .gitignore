@@ -1,0 +1,4 @@
+#git忽略的文件
+.idea
+node_modules
+

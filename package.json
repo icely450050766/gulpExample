@@ -1,0 +1,30 @@
+{
+  "name": "icely",
+  "version": "1.0.0",
+  "description": "'我的个人网站'",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-bytediff": "^1.0.0",
+    "gulp-clean-css": "^2.3.2",
+    "gulp-header": "^1.8.8",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-livereload": "^3.8.1",
+    "gulp-tinypng": "^1.0.2",
+    "gulp-uglify": "^2.0.0",
+    "imagemin": "^5.2.2",
+    "run-sequence": "^1.2.2"
+  },
+  "devDependencies": {
+    "bootstrap": "^3.3.6",
+    "jquery": "^2.2.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

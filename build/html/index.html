@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title> Loading </title>
+
+    <link href="../css/style.css" rel="stylesheet" type="text/css">
+
+    <!--<script src="//apps.bdimg.com/libs/jquery/1.10.2/jquery.min.js"></script>-->
+    <script src="../plugins/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../js/controller.js"></script>
+</head>
+<body>
+<button onclick="showLoading()">Loading</button>
+<script>
+    function showLoading(){
+        loading.show();
+        setTimeout( function(){
+            loading.hide();
+        }, 2000);
+    }
+</script>
+</body>
+</html>
